@@ -188,6 +188,16 @@ a.social:hover {
   border-color: #ff99ff;
 }
 
+.exp-card h3 {
+  width: fit-content;
+  margin:auto;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background-color: rgb(13, 13, 77);
+  color: whitesmoke;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   

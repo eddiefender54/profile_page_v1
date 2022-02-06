@@ -188,7 +188,7 @@ a.social:hover {
   border-color: #ff99ff;
 }
 
-.exp-card h3 {
+.exp-card h2 {
   width: fit-content;
   margin:auto;
   padding: 10px;
@@ -196,6 +196,15 @@ a.social:hover {
   text-transform: uppercase;
   background-color: rgb(13, 13, 77);
   color: whitesmoke;
+}
+
+.exp-card p {
+  padding-bottom: 20px;
+}
+
+.exp-card ul {
+  list-style-type: none;
+  text-align:  left;
 }
 
 /* Styles for larger screens */

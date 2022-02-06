@@ -21,6 +21,16 @@ a:hover {
   color: #6633ff;
 }
 
+h2 {
+  width: fit-content;
+  margin:auto;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background-color: rgb(13, 13, 77);
+  color: whitesmoke;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -69,12 +79,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 30%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all .3s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(120deg);
 }
 .tag {
   background-color: #efefef;
@@ -118,6 +128,13 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+.sam-swing {
+  height: 200px;
+  padding: 5px;
+  border-radius: 10px;
+  float: right;
 }
 
 footer {
@@ -186,16 +203,6 @@ a.social:hover {
 
 .exp-card:hover {
   border-color: #ff99ff;
-}
-
-.exp-card h2 {
-  width: fit-content;
-  margin:auto;
-  padding: 10px;
-  border-radius: 10px;
-  text-transform: uppercase;
-  background-color: rgb(13, 13, 77);
-  color: whitesmoke;
 }
 
 .exp-card p {

@@ -205,9 +205,9 @@ a.social:hover {
   border-color: #ff99ff;
 }
 
-.exp-card p {
+/* .exp-card p {           Tested and not needed. Extra code. 
   padding-bottom: 20px;
-}
+} */
 
 .exp-card ul {
   list-style-type: none;

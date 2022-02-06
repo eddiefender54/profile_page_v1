@@ -167,6 +167,27 @@ a.social:hover {
   clear: both;
 }
 
+.experience {
+  display: flexbox;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.exp-card {
+  margin: 20px 30px;
+  padding: 20px 40px 40px;
+  max-width: 1200px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.exp-card:hover {
+  border-color: #ff99ff;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
